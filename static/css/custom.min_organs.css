@@ -1,0 +1,425 @@
+body {
+    padding: 0
+}
+
+
+
+
+
+input,
+.btn-primary.focus,
+.btn-primary:focus,
+.btn-primary:hover {
+    color: #fff;
+    background-color: #464153;
+    background-position: 0 -15px;
+    border-color: #122b40
+}
+
+
+@media screen and (max-width:568px) {
+    .social-general {
+        width: 100%;
+        float: none;
+        text-align: center
+    }
+}
+
+.scroll-top {
+    position: fixed;
+    opacity: 0;
+    background-color: #000;
+    width: 50px;
+    height: 48px;
+    right: 30px;
+    bottom: 50px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out
+}
+
+
+@media screen and (max-width:568px) {
+    .scroll-top {
+        background-color: #000;
+        bottom: 50px
+    }
+}
+
+@media(min-width:980px) and (max-width:1199px) {
+    .carousel-inner .title {
+        left: 160px
+    }
+}
+
+@media (max-width:979px) {
+    .carousel-inner .title {
+        left: 0;
+        width: 100%;
+        max-width: 100%
+    }
+    .carousel-inner .title h1 {
+        width: 100%;
+        text-align: center
+    }
+}
+
+@media (max-width:568px) {
+    .carousel-inner .title {
+        position: inherit
+    }
+}
+
+#organswrapper,
+#muscles1wrapper,
+#muscles2wrapper,
+#spinewrapper,
+#brainwrapper,
+#facewrapper,
+#earanawrapper,
+#eyeanawrapper,
+#wpwrapper,
+#skeletonwrapper,
+#mouthwrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 0;
+    background-color: transparent;
+    min-width: 220px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default
+}
+
+#organswrapper svg,
+#muscles1wrapper svg,
+#muscles2wrapper svg,
+#spinewrapper svg,
+#brainwrapper svg,
+#facewrapper svg,
+#earanawrapper svg,
+#eyeanawrapper svg,
+#wpwrapper svg,
+#skeletonwrapper svg,
+#mouthwrapper svg {
+    max-height: 100%;
+    width: 100%;
+    margin: 0
+}
+
+
+
+
+
+
+
+#box_info img {
+    max-width: 100%
+}
+
+@media screen and (max-width:320px) {
+    #organswrapper svg,
+    #muscles2wrapper svg,
+    #wpwrapper svg {
+        height: 340px
+    }
+}
+
+@media screen and (max-width:400px) and (min-width:321px) {
+    #organswrapper svg,
+    #muscles2wrapper svg,
+    #wpwrapper svg {
+        height: 390px
+    }
+}
+
+@media screen and (max-width:480px) and (min-width:401px) {
+    #organswrapper svg,
+    #muscles2wrapper svg,
+    #wpwrapper svg {
+        height: 510px
+    }
+}
+
+@media screen and (max-width:767px) and (min-width:481px) {
+    #organswrapper svg,
+    #muscles2wrapper svg,
+    #wpwrapper svg {
+        height: 570px
+    }
+}
+
+@media screen and (min-width:768px) {
+    #organswrapper svg,
+    #muscles2wrapper svg,
+    #wpwrapper svg {
+        height: 600px
+    }
+}
+
+@media screen and (max-width:320px) {
+    #muscles1wrapper svg {
+        height: 110px
+    }
+}
+
+@media screen and (max-width:400px) and (min-width:321px) {
+    #muscles1wrapper svg {
+        height: 122px
+    }
+}
+
+@media screen and (max-width:480px) and (min-width:401px) {
+    #muscles1wrapper svg {
+        height: 158px
+    }
+}
+
+@media screen and (max-width:767px) and (min-width:481px) {
+    #muscles1wrapper svg {
+        height: 190px
+    }
+}
+
+@media screen and (min-width:768px) {
+    #muscles1wrapper svg {
+        height: 410px
+    }
+}
+
+@media screen and (max-width:320px) {
+    #facewrapper svg {
+        height: 260px
+    }
+}
+
+@media screen and (max-width:400px) and (min-width:321px) {
+    #facewrapper svg {
+        height: 322px
+    }
+}
+
+@media screen and (max-width:480px) and (min-width:401px) {
+    #facewrapper svg {
+        height: 400px
+    }
+}
+
+@media screen and (max-width:568px) and (min-width:481px) {
+    #facewrapper svg {
+        height: 490px
+    }
+}
+
+    
+
+
+    
+
+
+@media screen and (max-width:400px) and (min-width:321px) {
+    #skeletonwrapper svg {
+        height: 322px
+    }
+}
+
+@media screen and (max-width:480px) and (min-width:401px) {
+    #skeletonwrapper svg {
+        height: 400px
+    }
+}
+
+@media screen and (max-width:568px) and (min-width:481px) {
+    #skeletonwrapper svg {
+        height: 490px
+    }
+}
+
+@media screen and (min-width:569px) {
+    #skeletonwrapper svg {
+        height: 640px
+    }
+}
+
+@media screen and (max-width:320px) {
+    #mouthwrapper svg {
+        height: 260px
+    }
+}
+
+@media screen and (max-width:400px) and (min-width:321px) {
+    #mouthwrapper svg {
+        height: 322px
+    }
+}
+
+@media screen and (max-width:480px) and (min-width:401px) {
+    #mouthwrapper svg {
+        height: 400px
+    }
+}
+
+@media screen and (max-width:568px) and (min-width:481px) {
+    #mouthwrapper svg {
+        height: 490px
+    }
+}
+
+
+    
+
+
+    
+
+
+
+
+
+    
+
+
+.go_int,
+.go_ext,
+.go_back,
+.go_front {
+    fill: #72B8FC;
+    opacity: .05;
+    -webkit-transition: fill 0.1s ease;
+    -moz-transition: fill 0.1s ease;
+    -o-transition: fill 0.1s ease;
+    transition: fill 0.1s ease;
+    cursor: pointer
+}
+
+.go_int:hover,
+.go_ext:hover,
+.go_back:hover,
+.go_front:hover {
+    opacity: .4
+}
+
+.inactive-side {
+    fill: #B2B2B2
+}
+
+.go_bck_frontback,
+.go_frt_frontback {
+    fill: #72B8FC;
+    opacity: .05;
+    -webkit-transition: fill 0.1s ease;
+    -moz-transition: fill 0.1s ease;
+    -o-transition: fill 0.1s ease;
+    transition: fill 0.1s ease;
+    cursor: pointer
+}
+
+.go_bck_frontback:hover,
+.go_frt_frontback:hover {
+    opacity: .4
+}
+
+.go_bck_malefemale,
+.go_frt_malefemale {
+    fill: #72B8FC;
+    opacity: .05;
+    -webkit-transition: fill 0.1s ease;
+    -moz-transition: fill 0.1s ease;
+    -o-transition: fill 0.1s ease;
+    transition: fill 0.1s ease;
+    cursor: pointer
+}
+
+.go_bck_malefemale:hover,
+.go_frt_malefemale:hover {
+    opacity: .4
+}
+
+.go_one,
+.go_two,
+.go_three,
+.go_four {
+    fill: #D32222;
+    opacity: .7;
+    -webkit-transition: fill 0.1s ease;
+    -moz-transition: fill 0.1s ease;
+    -o-transition: fill 0.1s ease;
+    transition: fill 0.1s ease;
+    cursor: pointer
+}
+
+.go_one:hover,
+.go_two:hover,
+.go_three:hover,
+.go_four:hover {
+    opacity: 1
+}
+
+@media screen and (max-width:320px) {
+    #spinewrapper svg {
+        height: 510px
+    }
+}
+
+@media screen and (max-width:400px) and (min-width:321px) {
+    #spinewrapper svg {
+        height: 560px
+    }
+}
+
+@media screen and (max-width:480px) and (min-width:401px) {
+    #spinewrapper svg {
+        height: 580px
+    }
+}
+
+@media screen and (max-width:568px) and (min-width:481px) {
+    #spinewrapper svg {
+        height: 600px
+    }
+}
+
+@media screen and (min-width:569px) {
+    #spinewrapper svg {
+        height: 600px
+    }
+}
+
+.go_brain_lft,
+.go_brain_frt,
+.go_brain_bck,
+.go_brain_rht {
+    fill: #a64a2b;
+    opacity: .05;
+    -webkit-transition: fill 0.1s ease;
+    -moz-transition: fill 0.1s ease;
+    -o-transition: fill 0.1s ease;
+    transition: fill 0.1s ease;
+    cursor: pointer
+}
+
+.go_brain_lft:hover,
+.go_brain_frt:hover,
+.go_brain_bck:hover,
+.go_brain_rht:hover {
+    opacity: .4
+}
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
